@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-container {
+  width: 125%;
+  min-height: 100px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.title-container {
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  background-image: url(./images/Bruce_Wayne.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: rgb(253, 250, 250);
+  border: 1px solid black;
+  border-radius: 500rem;
+}
+.title-container h1 {
+  font-weight: bold;
+  text-align: center;
+}
+.title-container p {
+  font-weight: 500;
+  text-align: center;
+}
+.contact-container h1 {
+  text-align: center;
+}
+
+.contact-container {
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.contact-container h2 {
+  color: rgb(253, 251, 251);
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-container p {
+  color: rgb(252, 246, 246);
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(136, 20, 20, 0.5);
+}
+
+h3 {
+  margin-left: 65px;
+}
+
+.p1 {
+  text-align: justify;
+  width: 75%;
+  margin-left: 20px;
+  flex: content;
+  flex-wrap: wrap;
+}
+
+.skills-container {
+  width: 80%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 1rem;
+  color: white;
+}
+
+.skills-container p {
+  color: rgb(252, 246, 246);
+  font-weight: 300;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 50px;
+}
