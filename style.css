@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Dm Sans", sans-serif;
   display: flex;
@@ -11,7 +12,7 @@ body {
 
 .sidebar-container {
   width: 30%;
-  height: 100vh;
+  height: 936px; /*CAMBIAR AL FINAL SEGÚN EL ALTO*/
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -60,4 +61,22 @@ body {
   color: aliceblue;
   font-weight: 300;
   text-align: center;
+}
+
+.main-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.main-container section {
+  width: 90%;
+  height: auto;
+  display: flex;
+  padding: 1rem;
+  margin: 1rem auto;
+  flex-direction: column;
+  text-align: justify;
 }
